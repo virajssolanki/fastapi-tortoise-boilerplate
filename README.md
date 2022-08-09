@@ -10,29 +10,29 @@ This is my humble try to build best scalable fastapi and tortoise project struct
 
 ## run boilerplate
 
-- 1. Take a clone
+1. Take a clone
 ```
-git clone https://github.com/virajssolanki/fastapi-tortoise-sexy-boilerplate.git
+git clone https://github.com/virajssolanki/fastapi-tortoise-boilerplate.git
 ```
 
-- 2. Install required packages (virtual environment recommended)
+2. Install required packages (virtual environment recommended)
 ```
 pip install -r requirements.txt
 ```
 
-- 3. rename env.example to .env and also change DATABASE_URL to your db url
+3. rename env.example to .env and also change DATABASE_URL to your db url
 
-- 4. Generate migrations and 
+4. Generate migrations and 
 ```
 aerich init -t app.main.aerich_config
 ```
 
-- 5. Initialize the database
+5. Initialize the database
 ```
 aerich init-db
 ```
 
-- 6. run server
+6. run server
 ```
 uvicorn app.main:app --reload
 ```

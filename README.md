@@ -6,6 +6,7 @@ This is my humble try to build best scalable fastapi and tortoise project struct
 - aerich is used for migrations.
 - database is in postgressql. 
 - python 3.10 is used.
+- auth module
 
 
 ## run boilerplate
